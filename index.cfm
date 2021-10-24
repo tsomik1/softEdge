@@ -52,7 +52,7 @@
             	data-toolbar="#toolbar"
             	data-show-refresh="true"
             	data-show-toggle="true"
-		 		data-url="myCFC.cfc?method=getMembers"
+		 		data-url="/cfc/myCFC.cfc?method=getMembers"
 				data-show-columns="true"
 				data-toolbar-align="left">
             </table>
@@ -79,7 +79,7 @@
 
 		$('#users').bootstrapTable({
                 method: 'get',
-                url: '/includes/wiki.cfc?method=getWiki',
+                url: '/cfc/myCFC.cfc?method=getMembers',
                 cache: false,
                 height: 600,
                 striped: true,
