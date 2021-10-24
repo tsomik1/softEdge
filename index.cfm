@@ -33,14 +33,7 @@
         <div class="page-header">
            
         </div>
-        <div id="toolbar2">
-	        <button id="remove" class="btn btn-danger">
-	            <i class="glyphicon glyphicon-add"></i> Add Question
-	        </button>
-	         <button id="addquestion" class="btn btn-danger">
-	            <i class="glyphicon glyphicon-add"></i> Manage Category
-	        </button>
-		</div>
+       
 		
 		<div id="toolbar" class="btn-group">
                     
